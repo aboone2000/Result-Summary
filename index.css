@@ -1,3 +1,9 @@
+body{
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+
+
 .card{
     background-image: linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));
     width: 350px;
@@ -16,6 +22,7 @@
     text-align: center;
     padding-top: 50px;
     color: hsl(221, 100%, 96%);
+    font-weight: 800;
 }
 
 body{
@@ -28,9 +35,10 @@ body{
 }
 
 .card-holder{
-    background-color: hsl(0, 0%, 100%);
+    
     width: 1000px;
     height: 700px;
+    float: left;
 }
 
 .circle{
@@ -40,6 +48,9 @@ border-radius: 200px;
 height: 200px;
 width: 200px;
 margin: auto;
+position: relative;
+bottom: 40px;
+left: 5px;
 }
 
 p{
@@ -58,4 +69,27 @@ small{
     text-align: center;
   position: relative;
   bottom: 120px;
+  color: hsla(241, 100%, 89%, 0.7);
+}
+
+
+#footer{
+font-weight:700;
+font-size: 30px;
+position: relative;
+bottom: 30px;
+}
+
+.footer-text{
+    color:hsla(221, 100%, 96%, 0.7 );
+    font-weight: 400;   
+}
+
+#card2-holder{
+    float: right;
+    
+}
+#card-2{
+    height: 100px;
+    
 }
