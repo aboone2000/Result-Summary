@@ -1,0 +1,61 @@
+.card{
+    background-image: linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    display: grid;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+    
+    
+    
+}
+
+.card-header{
+    text-align: center;
+    padding-top: 50px;
+    color: hsl(221, 100%, 96%);
+}
+
+body{
+    font-family: 'Hanken Grotesk';
+    font-weight: 500;
+    padding-left: 30px;
+    font-size: 18px;
+   
+
+}
+
+.card-holder{
+    background-color: hsl(0, 0%, 100%);
+    width: 1000px;
+    height: 700px;
+}
+
+.circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0) );
+
+border-radius: 200px;
+height: 200px;
+width: 200px;
+margin: auto;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 4em;
+    width: 2.8em;
+    height: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+small{
+    font-size: 18px;
+    text-align: center;
+  position: relative;
+  bottom: 120px;
+}
