@@ -1,5 +1,10 @@
 body{
-    background-color:hsl(0, 0%, 100%) ;
+    font-family: 'Hanken Grotesk';
+    font-weight: 500;
+    padding-left: 30px;
+    font-size: 18px;
+   
+
 }
 
 
@@ -9,9 +14,10 @@ body{
     width: 350px;
     height: 450px;
     border-radius: 20px;
-    display: grid;
+    float: left;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    display: flexbox;
     
     
     
@@ -25,21 +31,9 @@ body{
     font-weight: 800;
 }
 
-body{
-    font-family: 'Hanken Grotesk';
-    font-weight: 500;
-    padding-left: 30px;
-    font-size: 18px;
-   
 
-}
 
-.card-holder{
-    
-    width: 1000px;
-    height: 700px;
-    float: left;
-}
+
 
 .circle{
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0) );
@@ -82,14 +76,78 @@ bottom: 30px;
 
 .footer-text{
     color:hsla(221, 100%, 96%, 0.7 );
-    font-weight: 400;   
+    font-weight: 500;   
 }
 
-#card2-holder{
-    float: right;
+
+.card2-holder{
+    float:right;
     
+   
 }
-#card-2{
-    height: 100px;
+.card-2{
+  background-color: white;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    padding-bottom: 60px;
+}
+
+.card2-header{
+    padding-top: 50px;
+    position: relative;
+    left: 10px;
+    font-weight: 700;
+}
+.card2-body{
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+}
+.color{
+    text-align: center;
+    line-height: 45px;
+    font-weight: 400;
     
+   
+
 }
+.Red{
+   position: relative;
+   right: 40px;
+   padding-left: 70px;
+   background-color:hsla(0, 100%, 67%, 0.1) ;
+   border-radius: 10px;
+   color:hsl(0, 100%, 67%);
+   text-align: left;
+   
+}
+.Blue{
+    position: relative;
+   right: 40px;
+   background-color: hsla(234, 85%, 45%,0.2);
+   color: hsl(234, 85%, 45%);
+   border-radius: 10px;
+   text-align: left;
+   padding-left: 70px;
+}
+.Yellow{
+    position: relative;
+   right: 40px;
+   background-color: hsla(39, 100%, 56%,0.3);
+   color: hsl(39, 100%, 56%);
+   border-radius: 10px;
+   text-align: left;
+   padding-left: 70px;
+}
+.Green{
+    position: relative;
+   right: 40px;
+   background-color: hsla(166, 100%, 37%, 0.2);
+   color: hsl(166, 100%, 37%);
+   border-radius: 10px;
+   text-align: left;
+   padding-left: 70px;
+}
+
+
