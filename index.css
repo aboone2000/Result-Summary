@@ -8,18 +8,23 @@ body{
 }
 
 
+.card-holder{
+   
+   position: absolute;
+   left: 350px;
+}
+
 
 .card{
     background-image: linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));
-    width: 350px;
+    width: 370px;
     height: 450px;
     border-radius: 20px;
     float: left;
     margin: 0 auto;
     padding-bottom: 60px;
-    display: flexbox;
-    
-    
+    position: absolute;
+    z-index: 2;
     
     
 }
@@ -47,7 +52,7 @@ bottom: 40px;
 left: 5px;
 }
 
-p{
+ p{
     display: flex;
     justify-content: center;
     align-items:center ;
@@ -76,78 +81,155 @@ bottom: 30px;
 
 .footer-text{
     color:hsla(221, 100%, 96%, 0.7 );
-    font-weight: 500;   
+    font-weight: 500;
+    text-align: center;   
 }
 
 
-.card2-holder{
-    float:right;
-    
-   
-}
+
 .card-2{
   background-color: white;
-    height: 450px;
-    width: 350px;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
     padding-bottom: 60px;
+    box-shadow: 7px 7px 7px 7px hsla(0, 3%, 75%, 0.568);
+    float: left;
+    width: 345px;
+    height: 450px;
+    position: absolute;
+    left:355px ;
+    
+    
 }
 
 .card2-header{
     padding-top: 50px;
     position: relative;
-    left: 10px;
+    left: 30px;
+   
     font-weight: 700;
+    
 }
-.card2-body{
+
+.box{
     display: flex;
-    flex-flow: column;
-    align-content: space-between;
-}
-.color{
-    text-align: center;
-    line-height: 45px;
-    font-weight: 400;
+    flex-direction: column;
+    top: 50px;
+    position: relative;
+    gap: 10px;
     
    
-
 }
+
+
+.btn-1{
+    background-color: hsl(224, 30%, 27%);
+    color: white;  
+    border-radius: 20px; 
+    font-family: 'Hanken Grotesk'; 
+    width: 250px;
+    height: 45px;
+    position: relative;
+    top: 175px;
+    left: 30px;
+    
+   
+}
+
 .Red{
-   position: relative;
-   right: 40px;
-   padding-left: 70px;
-   background-color:hsla(0, 100%, 67%, 0.1) ;
-   border-radius: 10px;
-   color:hsl(0, 100%, 67%);
-   text-align: left;
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px 10px;
+    height: 40px;
+    width: 75%;
+    left: 10%;
+    
+    
+}
+
+.Yellow{
+    background-color:hsla(39, 100%, 56%,0.1) ;
+    position: relative;
+    border-radius: 10px 10px;
+    height: 40px;
+    width: 75%;
+    left: 10%;
+    
+}
+
+.Green{
+    background-color:hsla(166, 100%, 37%,0.1) ;
+    position: relative;
+    top: 25px;
+    border-radius: 10px 10px;
+    height: 40px;
+    width: 75%;
+    left: 10%;
    
 }
 .Blue{
+    background-color:hsla(234, 85%, 45%,0.1) ;
     position: relative;
-   right: 40px;
-   background-color: hsla(234, 85%, 45%,0.2);
-   color: hsl(234, 85%, 45%);
-   border-radius: 10px;
-   text-align: left;
-   padding-left: 70px;
+    top: 50px;
+    border-radius: 10px 10px;
+    height: 40px ;
+    width: 75%;
+    left: 10%;
+  
 }
-.Yellow{
+img{
     position: relative;
-   right: 40px;
-   background-color: hsla(39, 100%, 56%,0.3);
-   color: hsl(39, 100%, 56%);
-   border-radius: 10px;
-   text-align: left;
-   padding-left: 70px;
-}
-.Green{
-    position: relative;
-   right: 40px;
-   background-color: hsla(166, 100%, 37%, 0.2);
-   color: hsl(166, 100%, 37%);
-   border-radius: 10px;
-   text-align: left;
-   padding-left: 70px;
+    left: 10px;
+    top: 5px;
 }
 
 
+
+
+div.Red > p{
+    color: hsl(0, 100%, 67%);
+    font-size: 18px;
+    position: relative;
+    bottom: 57px;
+    left: 40px;
+    
+}
+div.Blue > p{
+    color: hsl(234, 85%, 45%);
+    font-size: 18px;
+    position: relative;
+    bottom: 57px;
+    left: 40px;
+} 
+div.Green > p{
+    color: hsl(166, 100%, 37%);
+    font-size: 18px;
+    position: relative;
+    bottom: 57px;
+    left: 40px;
+}
+div.Yellow > p{
+    color: hsl(39, 100%, 56%);
+    font-size: 18px;
+    position: relative;
+    bottom: 57px;
+    left: 40px;
+}
+
+
+#number{
+position: absolute;
+left: 160px;
+bottom:7px ;
+font-weight: 700;
+}
+
+#numbers{
+    font-weight: 700;
+    color: hsla(0, 0%, 53%, 0.9);
+    position: absolute;
+    left: 190px;
+    bottom:7px
+}
