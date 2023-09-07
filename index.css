@@ -8,11 +8,8 @@ body{
 }
 
 
-.card-holder{
-   
-   position: absolute;
-   left: 350px;
-}
+
+
 
 
 .card{
@@ -23,7 +20,7 @@ body{
     float: left;
     margin: 0 auto;
     padding-bottom: 60px;
-    position: absolute;
+    position:sticky;
     z-index: 2;
     
     
@@ -35,7 +32,6 @@ body{
     color: hsl(221, 100%, 96%);
     font-weight: 800;
 }
-
 
 
 
@@ -82,7 +78,12 @@ bottom: 30px;
 .footer-text{
     color:hsla(221, 100%, 96%, 0.7 );
     font-weight: 500;
-    text-align: center;   
+    text-align: center;
+   padding: 55px;
+   position: relative;
+   bottom: 25px;
+   
+   
 }
 
 
@@ -98,7 +99,8 @@ bottom: 30px;
     width: 345px;
     height: 450px;
     position: absolute;
-    left:355px ;
+    
+    left:390px ;
     
     
 }
